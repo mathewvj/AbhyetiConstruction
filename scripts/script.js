@@ -25,11 +25,11 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-document.addEventListener('scroll', function () {
-    const backToTop = document.querySelector('.back-to-top');
-    if (window.scrollY > 100) {
-      backToTop.classList.add('active');
-    } else {
-      backToTop.classList.remove('active');
-    }
-  });
+// document.addEventListener('scroll', function () {
+//     const backToTop = document.querySelector('.back-to-top');
+//     if (window.scrollY > 100) {
+//       backToTop.classList.add('active');
+//     } else {
+//       backToTop.classList.remove('active');
+//     }
+//   });
